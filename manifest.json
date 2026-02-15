@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Sapnin",
+  "version": "1.0.0",
+  "description": "Act like a fucking human. Kills likes, stickers, and lazy emoji replies on Facebook.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.facebook.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["sapnin.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Sapnin"
+  },
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

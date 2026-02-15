@@ -1,0 +1,43 @@
+/* === SAPNIN: Kill lazy engagement === */
+
+/* Kill the Like button (thumbs up reaction under posts) */
+[aria-label="Like"],
+[aria-label="like"],
+[data-testid="like_button"],
+[data-testid="UFI2ReactionActionLink"] {
+  display: none !important;
+}
+
+/* Kill sticker buttons in comment composers */
+[aria-label="Add a sticker"],
+[aria-label="Choose a sticker"],
+[aria-label="Sticker"],
+[data-testid="sticker_button"] {
+  display: none !important;
+}
+
+/* Kill the standalone GIF button too — same energy */
+[aria-label="Add a GIF"],
+[aria-label="Choose a GIF"] {
+  display: none !important;
+}
+
+/* Sapnin warning banner injected by JS */
+.sapnin-warning {
+  background: #1a1a1a;
+  color: #ff4444;
+  font-family: monospace;
+  font-size: 13px;
+  font-weight: bold;
+  padding: 6px 12px;
+  border: 2px solid #ff4444;
+  border-radius: 4px;
+  margin-top: 4px;
+  animation: sapnin-pulse 0.3s ease-in-out;
+}
+
+@keyframes sapnin-pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+  100% { transform: scale(1); }
+}
