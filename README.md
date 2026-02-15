@@ -1,6 +1,6 @@
 # SAPNIN
 
-**Act like a fucking human.**
+**Act like a human.**
 
 A browser extension that kills low-effort engagement on Facebook.
 
