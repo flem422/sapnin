@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Sapnin",
   "version": "1.0.0",
-  "description": "Act like a fucking human. Kills likes, stickers, and lazy emoji replies on Facebook.",
+  "description": "Act like a fucking human. Kills likes and lazy emoji replies on Facebook.",
   "permissions": [],
   "content_scripts": [
     {

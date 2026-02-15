@@ -1,5 +1,5 @@
 // SAPNIN — Act like a fucking human.
-// Kills likes, stickers, emoji-only replies, and short lazy comments on Facebook.
+// Kills likes, emoji-only replies, and short lazy comments on Facebook.
 
 (function sapnin() {
   "use strict";
@@ -13,10 +13,6 @@
     '[aria-label="like"]',
     '[data-testid="like_button"]',
     '[data-testid="UFI2ReactionActionLink"]',
-    '[aria-label="Add a sticker"]',
-    '[aria-label="Choose a sticker"]',
-    '[aria-label="Sticker"]',
-    '[data-testid="sticker_button"]',
     '[aria-label="Add a GIF"]',
     '[aria-label="Choose a GIF"]',
   ].join(", ");

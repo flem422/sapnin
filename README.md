@@ -7,7 +7,6 @@ A browser extension that kills low-effort engagement on Facebook.
 ## What it does
 
 - **Kills the Like button** — React like a person or don't react at all
-- **Kills the Sticker button** — No one needs these
 - **Blocks emoji-only replies** — Use your words
 - **Enforces 20 character minimum on comments** — If it's not worth a sentence, it's not worth saying
 

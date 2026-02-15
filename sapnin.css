@@ -8,14 +8,6 @@
   display: none !important;
 }
 
-/* Kill sticker buttons in comment composers */
-[aria-label="Add a sticker"],
-[aria-label="Choose a sticker"],
-[aria-label="Sticker"],
-[data-testid="sticker_button"] {
-  display: none !important;
-}
-
 /* Kill the standalone GIF button too — same energy */
 [aria-label="Add a GIF"],
 [aria-label="Choose a GIF"] {
